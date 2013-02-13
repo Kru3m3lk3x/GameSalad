@@ -10,10 +10,13 @@
     <actor id="id642225" />
     <actor id="id182584" />
     <actor id="id212371" />
+    <actor id="id667399" />
+    <actor id="id558533" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id189808" />
+    <scene id="id231787" />
   </scenes>
   <attributes>
     <text id="name">default name</text>

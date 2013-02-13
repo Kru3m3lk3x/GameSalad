@@ -8,6 +8,15 @@
     <image name="Unbenannt">
       <file name="Unbenannt.png" size="1452" />
     </image>
+    <image name="Player">
+      <file name="Player.png" size="1107" />
+    </image>
+    <image name="GameOver">
+      <file name="GameOver.png" size="15386" />
+    </image>
+    <image name="PlayButton">
+      <file name="PlayButton.png" size="2449" />
+    </image>
   </images>
   <behaviors />
 </assets>

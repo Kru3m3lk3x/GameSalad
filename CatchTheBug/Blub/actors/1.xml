@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">25</real>
-      <real id="height">25</real>
+      <real id="width">20</real>
+      <real id="height">20</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Unbenannt</image>
+    <image id="image">Player</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
     <integer id="id383592" name="Jumps">0</integer>
@@ -267,6 +267,14 @@
           <attributes>
             <text id="name">Destroy</text>
             <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+        <behavior id="id466519" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id231787</text>
+            <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
       </behaviors>
