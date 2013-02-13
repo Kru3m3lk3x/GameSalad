@@ -70,7 +70,7 @@
               <attributes>
                 <text id="name">Spawn Actor</text>
                 <text id="bundleName">Spawn.behavior</text>
-                <text id="prototypeKey">id840560</text>
+                <text id="prototypeKey">id306756</text>
                 <angle id="direction">0</angle>
                 <index id="directionSpace">1</index>
                 <real id="x">240</real>
