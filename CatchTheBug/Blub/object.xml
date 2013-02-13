@@ -6,8 +6,8 @@
   <resolution>0</resolution>
   <longDescription>A simple game.</longDescription>
   <prototypes>
-    <actor id="id642225" />
     <actor id="id306756" />
+    <actor id="id642225" />
     <actor id="id182584" />
     <actor id="id212371" />
   </prototypes>
