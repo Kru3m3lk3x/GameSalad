@@ -39,18 +39,24 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <boolean id="visible">true</boolean>
+              </attributes>
             </graphics>
             <motion />
             <physics>
-              <attributes />
+              <attributes>
+                <real id="restitution">0</real>
+                <boolean id="fixedRotation">true</boolean>
+                <boolean id="movable">false</boolean>
+              </attributes>
             </physics>
           </aspects>
         </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
-        <boolean id="scrollable">true</boolean>
+        <boolean id="scrollable">false</boolean>
       </attributes>
     </layer>
   </layers>
@@ -83,8 +89,8 @@
         <real id="height">320</real>
       </size>
       <size id="trackingArea">
-        <real id="width">400</real>
-        <real id="height">260</real>
+        <real id="width">480</real>
+        <real id="height">320</real>
       </size>
       <real id="rotation">0</real>
     </rect>
