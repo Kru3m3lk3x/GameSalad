@@ -32,6 +32,12 @@
     <image name="ScoreBackground">
       <file name="ScoreBackground.png" size="59987" />
     </image>
+    <image name="Help">
+      <file name="Help.png" size="1396" />
+    </image>
+    <image name="HelpBackground">
+      <file name="HelpBackground.png" size="79334" />
+    </image>
   </images>
   <behaviors />
 </assets>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id995430">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id590208">
   <layers>
-    <layer id="id324150">
+    <layer id="id405775">
       <actors>
-        <actor id="id970354" prototype="id157779">
+        <actor id="id411907" prototype="id719266">
           <attributes>
             <point id="position">
               <real id="x">240</real>
@@ -14,7 +14,6 @@
               <real id="height">320</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">MenueBackground</image>
           </attributes>
           <aspects>
             <graphics>
@@ -26,65 +25,18 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id204887" prototype="id505224">
+        <actor id="id539668" prototype="id941092">
           <attributes>
             <point id="position">
-              <real id="x">350</real>
-              <real id="y">145</real>
+              <real id="x">241</real>
+              <real id="y">190</real>
             </point>
             <size id="size">
-              <real id="width">128</real>
-              <real id="height">64</real>
+              <real id="width">120</real>
+              <real id="height">25</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Play</image>
           </attributes>
-          <behaviors>
-            <behavior id="id606341" class="RuleBehavior" enabled="true">
-              <attributes>
-                <text id="name">Rule</text>
-                <text id="bundleName">Rule.behavior</text>
-                <real id="compoundConditionKind">0</real>
-              </attributes>
-              <conditions>
-                <condition id="id218898" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
-                  <attributes>
-                    <text id="name">default name</text>
-                    <index id="conditionType">0</index>
-                  </attributes>
-                  <predicate type="touch" conditionType="pressed">
-                    <attributes />
-                  </predicate>
-                </condition>
-              </conditions>
-              <behaviors>
-                <behavior id="id821343" class="ChangeAttributeAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Attribute</text>
-                    <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">game.attributes.id992458</text>
-                    <text id="RHS">0</text>
-                  </attributes>
-                </behavior>
-                <behavior id="id205411" class="ChangeSceneAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Scene</text>
-                    <text id="bundleName">ChangeScene.behavior</text>
-                    <text id="sceneKey">id189808</text>
-                    <boolean id="enableAdvertisement">false</boolean>
-                  </attributes>
-                </behavior>
-                <behavior id="id246963" class="ChangeAttributeAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Attribute</text>
-                    <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">game.attributes.id201051</text>
-                    <text id="RHS">30</text>
-                  </attributes>
-                </behavior>
-              </behaviors>
-            </behavior>
-          </behaviors>
           <aspects>
             <graphics>
               <attributes />
@@ -95,11 +47,11 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id961495" prototype="id200432">
+        <actor id="id142871" prototype="id579486">
           <attributes>
             <point id="position">
-              <real id="x">350</real>
-              <real id="y">60</real>
+              <real id="x">240</real>
+              <real id="y">45</real>
             </point>
             <size id="size">
               <real id="width">128</real>
@@ -125,7 +77,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">MainMenue</text>
+    <text id="name">Score02</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>

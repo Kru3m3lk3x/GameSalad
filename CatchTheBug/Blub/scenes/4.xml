@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id231787">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id983943">
   <layers>
-    <layer id="id544787">
+    <layer id="id108419">
       <actors>
-        <actor id="id244142" prototype="id667399">
+        <actor id="id101623" prototype="id719266">
           <attributes>
             <point id="position">
               <real id="x">240</real>
               <real id="y">160</real>
             </point>
             <size id="size">
-              <real id="width">400</real>
-              <real id="height">260</real>
+              <real id="width">480</real>
+              <real id="height">320</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -28,7 +25,29 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id956132" prototype="id558533">
+        <actor id="id342628" prototype="id941092">
+          <attributes>
+            <point id="position">
+              <real id="x">241</real>
+              <real id="y">190</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">25</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id443665" prototype="id505224">
           <attributes>
             <point id="position">
               <real id="x">400</real>
@@ -40,25 +59,63 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
+          <behaviors>
+            <behavior id="id505423" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id676092" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id361844" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id992458</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id939911" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id201051</text>
+                    <text id="RHS">30</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id106194" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">next</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
-              <attributes>
-                <boolean id="visible">true</boolean>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
-              <attributes>
-                <real id="restitution">0</real>
-                <boolean id="fixedRotation">true</boolean>
-                <boolean id="movable">false</boolean>
-              </attributes>
+              <attributes />
             </physics>
           </aspects>
         </actor>
-        <actor id="id828397" prototype="id579486">
+        <actor id="id623768" prototype="id579486">
           <attributes>
             <point id="position">
               <real id="x">80</real>
@@ -83,12 +140,12 @@
       </actors>
       <attributes>
         <text id="name">Background</text>
-        <boolean id="scrollable">false</boolean>
+        <boolean id="scrollable">true</boolean>
       </attributes>
     </layer>
   </layers>
   <attributes>
-    <text id="name">GameOver</text>
+    <text id="name">Score01</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -116,8 +173,8 @@
         <real id="height">320</real>
       </size>
       <size id="trackingArea">
-        <real id="width">480</real>
-        <real id="height">320</real>
+        <real id="width">400</real>
+        <real id="height">260</real>
       </size>
       <real id="rotation">0</real>
     </rect>

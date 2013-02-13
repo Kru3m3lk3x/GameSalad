@@ -19,12 +19,17 @@
     <actor id="id579486" />
     <actor id="id974306" />
     <actor id="id719266" />
+    <actor id="id200432" />
+    <actor id="id860215" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id995430" />
+    <scene id="id409548" />
     <scene id="id189808" />
     <scene id="id983943" />
+    <scene id="id174340" />
+    <scene id="id590208" />
     <scene id="id231787" />
   </scenes>
   <attributes>
