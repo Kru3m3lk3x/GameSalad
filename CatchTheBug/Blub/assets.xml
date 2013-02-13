@@ -26,6 +26,12 @@
     <image name="Retry">
       <file name="Retry.png" size="1655" />
     </image>
+    <image name="Home">
+      <file name="Home.png" size="1863" />
+    </image>
+    <image name="ScoreBackground">
+      <file name="ScoreBackground.png" size="59987" />
+    </image>
   </images>
   <behaviors />
 </assets>

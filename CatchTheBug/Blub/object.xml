@@ -16,11 +16,15 @@
     <actor id="id941092" />
     <actor id="id157779" />
     <actor id="id505224" />
+    <actor id="id579486" />
+    <actor id="id974306" />
+    <actor id="id719266" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id995430" />
     <scene id="id189808" />
+    <scene id="id983943" />
     <scene id="id231787" />
   </scenes>
   <attributes>
@@ -32,5 +36,6 @@
     </size>
     <text id="actorTags" />
     <integer id="id992458" name="BugsCount">0</integer>
+    <integer id="id201051" name="Countdown">30</integer>
   </attributes>
 </game>

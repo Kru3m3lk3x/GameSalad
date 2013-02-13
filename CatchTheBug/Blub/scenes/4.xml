@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id983943">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id231787">
   <layers>
-    <layer id="id108419">
+    <layer id="id544787">
       <actors>
-        <actor id="id101623" prototype="id719266">
+        <actor id="id244142" prototype="id667399">
           <attributes>
             <point id="position">
               <real id="x">240</real>
               <real id="y">160</real>
             </point>
             <size id="size">
-              <real id="width">480</real>
-              <real id="height">320</real>
+              <real id="width">400</real>
+              <real id="height">260</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -25,29 +28,7 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id342628" prototype="id941092">
-          <attributes>
-            <point id="position">
-              <real id="x">241</real>
-              <real id="y">190</real>
-            </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">25</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id443665" prototype="id505224">
+        <actor id="id956132" prototype="id558533">
           <attributes>
             <point id="position">
               <real id="x">400</real>
@@ -61,15 +42,23 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <boolean id="visible">true</boolean>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
-              <attributes />
+              <attributes>
+                <real id="restitution">0</real>
+                <boolean id="fixedRotation">true</boolean>
+                <boolean id="movable">false</boolean>
+              </attributes>
             </physics>
           </aspects>
         </actor>
-        <actor id="id623768" prototype="id579486">
+        <actor id="id828397" prototype="id579486">
           <attributes>
             <point id="position">
               <real id="x">80</real>
@@ -94,12 +83,12 @@
       </actors>
       <attributes>
         <text id="name">Background</text>
-        <boolean id="scrollable">true</boolean>
+        <boolean id="scrollable">false</boolean>
       </attributes>
     </layer>
   </layers>
   <attributes>
-    <text id="name">Score01</text>
+    <text id="name">GameOver</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -127,8 +116,8 @@
         <real id="height">320</real>
       </size>
       <size id="trackingArea">
-        <real id="width">400</real>
-        <real id="height">260</real>
+        <real id="width">480</real>
+        <real id="height">320</real>
       </size>
       <real id="rotation">0</real>
     </rect>
