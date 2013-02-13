@@ -108,7 +108,7 @@
           <attributes>
             <point id="position">
               <real id="x">240</real>
-              <real id="y">45</real>
+              <real id="y">40</real>
             </point>
             <size id="size">
               <real id="width">100</real>
@@ -158,7 +158,7 @@
           <attributes>
             <point id="position">
               <real id="x">120</real>
-              <real id="y">20</real>
+              <real id="y">12</real>
             </point>
             <size id="size">
               <real id="width">50</real>
@@ -208,7 +208,7 @@
           <attributes>
             <point id="position">
               <real id="x">360</real>
-              <real id="y">34</real>
+              <real id="y">30</real>
             </point>
             <size id="size">
               <real id="width">40</real>

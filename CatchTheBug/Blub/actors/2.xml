@@ -22,7 +22,40 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id822513" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">0</index>
+        <real id="interval">1</real>
+        <boolean id="runToCompletion">true</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id193797" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id840560</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">
+              <expression>
+                <string>random(</string>
+                <string>1</string>
+                <string>0, 4</string>
+                <string>7</string>
+                <string>0)</string>
+              </expression>
+            </real>
+            <real id="y">325</real>
+            <index id="positionSpace">1</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>

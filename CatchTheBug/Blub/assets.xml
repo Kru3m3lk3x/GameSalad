@@ -14,8 +14,11 @@
     <image name="Play">
       <file name="Play.png" size="1953" />
     </image>
+    <image name="Plattform">
+      <file name="Plattform.png" size="5381" />
+    </image>
     <image name="Bug">
-      <file name="Bug.png" size="18607" />
+      <file name="Bug.png" size="3416" />
     </image>
   </images>
   <behaviors />
