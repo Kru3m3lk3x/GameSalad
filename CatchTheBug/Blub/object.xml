@@ -13,6 +13,7 @@
     <actor id="id667399" />
     <actor id="id558533" />
     <actor id="id840560" />
+    <actor id="id941092" />
   </prototypes>
   <plugins />
   <scenes>
@@ -27,5 +28,6 @@
       <real id="height">320</real>
     </size>
     <text id="actorTags" />
+    <integer id="id992458" name="BugsCount">0</integer>
   </attributes>
 </game>

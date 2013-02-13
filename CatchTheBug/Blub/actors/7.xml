@@ -81,6 +81,19 @@
             <text id="bundleName">Destroy.behavior</text>
           </attributes>
         </behavior>
+        <behavior id="id935911" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id992458</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.attributes.id992458" />
+                <string>+1</string>
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
     <behavior id="id148391" class="AccelerateBehavior" enabled="true">
