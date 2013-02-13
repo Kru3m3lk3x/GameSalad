@@ -2,20 +2,20 @@
 <assets PGFVersion="0.19" GSCVersion="0.10.0">
   <sounds />
   <images>
-    <image name="Foto 2013-02-13 10.29.22 vorm.">
-      <file name="Foto 2013-02-13 10.29.22 vorm..png" size="502299" />
-    </image>
-    <image name="Unbenannt">
-      <file name="Unbenannt.png" size="1452" />
-    </image>
     <image name="Player">
       <file name="Player.png" size="1107" />
     </image>
-    <image name="GameOver">
-      <file name="GameOver.png" size="15386" />
+    <image name="Background">
+      <file name="Background.png" size="42583" />
     </image>
-    <image name="PlayButton">
-      <file name="PlayButton.png" size="2449" />
+    <image name="GameOver">
+      <file name="GameOver.png" size="20634" />
+    </image>
+    <image name="Play">
+      <file name="Play.png" size="1953" />
+    </image>
+    <image name="Bug">
+      <file name="Bug.png" size="18607" />
     </image>
   </images>
   <behaviors />

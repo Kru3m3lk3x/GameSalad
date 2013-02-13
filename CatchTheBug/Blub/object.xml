@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.10.0" PGFVersion="0.19" title="Blub">
+<game title="Blub" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">default name</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <text id="actorTags" />
+    <integer id="id564366" name="randombugs">0</integer>
+  </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -12,19 +22,12 @@
     <actor id="id212371" />
     <actor id="id667399" />
     <actor id="id558533" />
+    <actor id="id840560" />
+    <actor id="id482396" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id189808" />
     <scene id="id231787" />
   </scenes>
-  <attributes>
-    <text id="name">default name</text>
-    <real id="time">0</real>
-    <size id="displaySize">
-      <real id="width">480</real>
-      <real id="height">320</real>
-    </size>
-    <text id="actorTags" />
-  </attributes>
 </game>

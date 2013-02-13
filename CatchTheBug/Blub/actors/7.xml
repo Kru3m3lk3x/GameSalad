@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id212371" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id840560" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">Plattform</text>
+    <text id="name">Bug</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">100</real>
-      <real id="height">100</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0,63921568627451</real>
-      <real id="green">0,905882352941176</real>
-      <real id="blue">0,529411764705882</real>
+      <real id="red">0,945098039215686</real>
+      <real id="green">0,00392156862745098</real>
+      <real id="blue">0,00392156862745098</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">Bug</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -53,9 +53,9 @@
       <attributes>
         <real id="density">1</real>
         <real id="friction">3</real>
-        <real id="restitution">0</real>
-        <boolean id="fixedRotation">true</boolean>
-        <boolean id="movable">false</boolean>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
