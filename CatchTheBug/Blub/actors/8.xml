@@ -9,7 +9,7 @@
     </point>
     <size id="size">
       <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="height">25</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -29,11 +29,12 @@
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
+            <string />
             <reference keypath="game.attributes.id992458" />
           </expression>
         </text>
         <text id="font">Arial</text>
-        <real id="size">10</real>
+        <real id="size">16</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">

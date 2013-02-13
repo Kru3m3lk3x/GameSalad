@@ -20,6 +20,12 @@
     <image name="Bug">
       <file name="Bug.png" size="3416" />
     </image>
+    <image name="MenueBackground">
+      <file name="MenueBackground.png" size="53823" />
+    </image>
+    <image name="Retry">
+      <file name="Retry.png" size="1655" />
+    </image>
   </images>
   <behaviors />
 </assets>

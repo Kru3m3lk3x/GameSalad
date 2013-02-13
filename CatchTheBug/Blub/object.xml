@@ -14,9 +14,12 @@
     <actor id="id558533" />
     <actor id="id840560" />
     <actor id="id941092" />
+    <actor id="id157779" />
+    <actor id="id505224" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id995430" />
     <scene id="id189808" />
     <scene id="id231787" />
   </scenes>
