@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.10.0" PGFVersion="0.19" title="My Great Project">
+<game GSCVersion="0.10.0" PGFVersion="0.19" title="Blub">
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
   <resolution>0</resolution>
   <longDescription>A simple game.</longDescription>
-  <prototypes />
+  <prototypes>
+    <actor id="id642225" />
+    <actor id="id306756" />
+    <actor id="id182584" />
+  </prototypes>
   <plugins />
   <scenes>
-    <scene id="id967796" />
+    <scene id="id189808" />
   </scenes>
   <attributes>
-    <text id="name">Catch The Bugs</text>
+    <text id="name">default name</text>
     <real id="time">0</real>
     <size id="displaySize">
       <real id="width">480</real>
