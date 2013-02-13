@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">50</real>
-      <real id="height">50</real>
+      <real id="width">25</real>
+      <real id="height">25</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -28,7 +28,7 @@
       <attributes>
         <text id="name">Collide</text>
         <text id="bundleName">Collide.behavior</text>
-        <text id="prototypeKey">id182584</text>
+        <text id="prototypeKey">id212371</text>
         <text id="actorTag">Ground</text>
         <index id="mode">0</index>
       </attributes>
@@ -211,12 +211,44 @@
     </behavior>
     <behavior id="id655498" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">CollideRule</text>
+        <text id="name">CollidePlattformRule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
         <condition id="id458635" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id212371</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id181914" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id383592</text>
+            <text id="RHS">1</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id377014" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">CollideGroundRule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id424520" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -231,12 +263,10 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id181914" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id478959" class="DestroyAction" enabled="true">
           <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">self.attributes.id383592</text>
-            <text id="RHS">1</text>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
           </attributes>
         </behavior>
       </behaviors>
