@@ -33,39 +33,6 @@
         <index id="mode">0</index>
       </attributes>
     </behavior>
-    <behavior id="id507693" class="RuleBehavior" enabled="false">
-      <attributes>
-        <text id="name">Move Down Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id479556" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="key">
-            <attributes>
-              <text id="mode">down</text>
-              <text id="keyString">down</text>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id411998" class="MoveBehavior" enabled="true">
-          <attributes>
-            <text id="name">Move</text>
-            <text id="bundleName">Move.behavior</text>
-            <angle id="direction">270</angle>
-            <index id="space">0</index>
-            <index id="moveType">0</index>
-            <real id="speed">300</real>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id896988" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Move Right Rule</text>
@@ -92,7 +59,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-            <text id="RHS">100</text>
+            <text id="RHS">200</text>
           </attributes>
         </behavior>
       </behaviors>
@@ -133,7 +100,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-            <text id="RHS">-100</text>
+            <text id="RHS">-150</text>
           </attributes>
         </behavior>
       </behaviors>

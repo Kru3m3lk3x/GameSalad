@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id819885" PGFVersion="0.19" GSCVersion="0.10.0">
+  <attributes>
+    <text id="name">Particle_Spawner</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">1</real>
+      <real id="height">1</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">0</real>
+    </color>
+    <image id="image" />
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id335076" class="ParticlesBehavior" enabled="true">
+      <attributes>
+        <text id="name">Particles</text>
+        <text id="bundleName">Particles.behavior</text>
+        <index id="numParticles">50</index>
+        <real id="size">1</real>
+        <real id="lifetime">1</real>
+        <real id="startupTime">0</real>
+        <angle id="direction">90</angle>
+        <real id="speed">10</real>
+        <image id="image">Partikel</image>
+        <angle id="rotation">0</angle>
+        <real id="angularVelocity">275,280898876404</real>
+        <index id="directionRelativity">0</index>
+        <real id="emitterOffsetX">0</real>
+        <real id="emitterOffsetY">0</real>
+        <boolean id="colorChange">false</boolean>
+        <boolean id="sizeChange">true</boolean>
+        <real id="colorTransitionTime">5</real>
+        <real id="sizeTarget">40</real>
+        <real id="sizeTransitionTime">1</real>
+        <color id="color">
+          <real id="red">1</real>
+          <real id="green">0</real>
+          <real id="blue">0</real>
+          <real id="alpha">1</real>
+        </color>
+        <color id="colorTarget">
+          <real id="red">0,133333333333333</real>
+          <real id="green">1</real>
+          <real id="blue">0</real>
+          <real id="alpha">0,325490196078431</real>
+        </color>
+        <boolean id="affectedByGravity">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+      </attributes>
+    </behavior>
+    <behavior id="id813611" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">1</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id253859" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

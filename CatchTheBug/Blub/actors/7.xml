@@ -75,6 +75,19 @@
         </condition>
       </conditions>
       <behaviors>
+        <behavior id="id148779" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id819885</text>
+            <angle id="direction">90</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">0</real>
+            <real id="y">0</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
         <behavior id="id475981" class="DestroyAction" enabled="true">
           <attributes>
             <text id="name">Destroy</text>
@@ -102,7 +115,7 @@
         <text id="bundleName">Accelerate.behavior</text>
         <angle id="direction">270</angle>
         <index id="space">0</index>
-        <real id="acceleration">300</real>
+        <real id="acceleration">200</real>
       </attributes>
     </behavior>
   </behaviors>

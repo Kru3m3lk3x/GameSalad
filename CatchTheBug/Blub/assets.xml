@@ -38,6 +38,9 @@
     <image name="HelpBackground">
       <file name="HelpBackground.png" size="79334" />
     </image>
+    <image name="Partikel">
+      <file name="Partikel.png" size="9385" />
+    </image>
   </images>
   <behaviors />
 </assets>
