@@ -85,6 +85,20 @@
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>
+        <behavior id="id579250" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id963331</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.attributes.id963331" />
+                <string>+</string>
+                <reference keypath="game.attributes.id992458" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
   </behaviors>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id974306" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id797805" PGFVersion="0.19" GSCVersion="0.10.0">
   <attributes>
-    <text id="name">Lable_Time</text>
+    <text id="name">Lable_TimeLeft</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">50</real>
+      <real id="height">25</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -23,41 +23,13 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id813695" class="TimerBehavior" enabled="true">
-      <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">0</index>
-        <real id="interval">1</real>
-        <boolean id="runToCompletion">true</boolean>
-      </attributes>
-      <behaviors>
-        <behavior id="id434269" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id201051</text>
-            <text id="RHS">
-              <expression>
-                <reference keypath="game.attributes.id201051" />
-                <string>-1</string>
-              </expression>
-            </text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id557752" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id721865" class="DisplayTextBehavior" enabled="true">
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">
-          <expression>
-            <reference keypath="game.attributes.id201051" />
-          </expression>
-        </text>
+        <text id="text">Time:</text>
         <text id="font">Arial</text>
-        <real id="size">16</real>
+        <real id="size">15</real>
         <index id="alignment">1</index>
         <boolean id="wrap">false</boolean>
         <color id="color">

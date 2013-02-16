@@ -14,7 +14,9 @@
               <real id="height">320</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">ScoreFinalBackground</image>
           </attributes>
+          <behaviors />
           <aspects>
             <graphics>
               <attributes>
@@ -31,8 +33,8 @@
         <actor id="id539668" prototype="id941092">
           <attributes>
             <point id="position">
-              <real id="x">241</real>
-              <real id="y">190</real>
+              <real id="x">419</real>
+              <real id="y">227</real>
             </point>
             <size id="size">
               <real id="width">120</real>
@@ -78,6 +80,28 @@
             </physics>
           </aspects>
         </actor>
+        <actor id="id282202" prototype="id255859">
+          <attributes>
+            <point id="position">
+              <real id="x">336</real>
+              <real id="y">180</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">25</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
@@ -93,7 +117,7 @@
       <real id="height">320</real>
     </size>
     <boolean id="wrapX">false</boolean>
-    <boolean id="wrapY">false</boolean>
+    <boolean id="wrapY">true</boolean>
     <point id="gravity">
       <real id="x">0</real>
       <real id="y">0</real>

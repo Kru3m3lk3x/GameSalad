@@ -41,6 +41,9 @@
     <image name="Partikel">
       <file name="Partikel.png" size="9385" />
     </image>
+    <image name="ScoreFinalBackground">
+      <file name="ScoreFinalBackground.png" size="64867" />
+    </image>
   </images>
   <behaviors />
 </assets>

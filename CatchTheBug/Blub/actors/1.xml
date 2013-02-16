@@ -59,7 +59,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-            <text id="RHS">200</text>
+            <text id="RHS">150</text>
           </attributes>
         </behavior>
       </behaviors>
@@ -245,6 +245,15 @@
           </attributes>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id948881" class="CollideBehavior" enabled="true">
+      <attributes>
+        <text id="name">Collide</text>
+        <text id="bundleName">Collide.behavior</text>
+        <text id="prototypeKey">id332358</text>
+        <text id="actorTag">Ground</text>
+        <index id="mode">0</index>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

@@ -49,6 +49,14 @@
             <text id="RHS">0</text>
           </attributes>
         </behavior>
+        <behavior id="id973548" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id963331</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
         <behavior id="id339334" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
