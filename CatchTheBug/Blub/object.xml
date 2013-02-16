@@ -44,7 +44,7 @@
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags" />
+    <text id="actorTags">All</text>
     <integer id="id992458" name="BugsCount">0</integer>
     <integer id="id201051" name="Countdown">30</integer>
     <integer id="id963331" name="BugsTotal">0</integer>
